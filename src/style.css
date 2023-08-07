@@ -4,6 +4,6 @@
 
 @layer components {
   body {
-      @apply bg-gray-800 text-gray-200 text-sm
+      @apply bg-gray-200 text-black text-sm
   }
 }
