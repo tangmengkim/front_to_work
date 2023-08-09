@@ -4,7 +4,7 @@ import { useRouter } from "vue-router";
 
 
 const Axios = axios.create({
-    baseURL: 'https://lavar-server.onrender.com',
+    baseURL: 'http://localhost:4000',
     withCredentials: true
 });
 
