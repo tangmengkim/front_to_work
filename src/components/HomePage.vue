@@ -1,7 +1,7 @@
 <template>
     <div>
         <p>{{ JSON.stringify(user) }}</p>
-        <button @click="Logout">Logout</button>
+        <button @click="Logout" class="bg-red-600 rounded-md">Logout</button>
     </div>
 </template>
 
