@@ -1,5 +1,5 @@
 <template>
-    <div class="justify-center">
+    <div class="justify-center items-center m-5">
         <p class="text-center text-lg text-cyan-600 ">Hello {{ user.username }}</p>
         <button @click="Logout" class="bg-red-600 rounded-md text-white px-4 py-2 ">Logout</button>
     </div>
