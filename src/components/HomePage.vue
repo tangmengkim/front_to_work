@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <div class="flex item-center">
         <p class="text-center text-lg text-cyan-600 ">Hello {{ user.username }}</p>
-        <button @click="Logout" class="bg-red-600 rounded-md text-white px-4 py-2 item-center">Logout</button>
+        <button @click="Logout" class="bg-red-600 rounded-md text-white px-4 py-2 ">Logout</button>
     </div>
 </template>
 
