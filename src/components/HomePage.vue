@@ -17,7 +17,7 @@ const { setAuthUser}=useAuthStore();
 
 const router = useRouter()
 async function Logout() {
-
+//hejjjj
     try {
         
         const response = await Axios.post('/logout');
